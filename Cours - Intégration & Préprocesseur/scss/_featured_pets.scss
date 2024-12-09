@@ -1,0 +1,53 @@
+√.featured-pets {
+    padding: $padding-large 0;
+  
+    .section__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: $margin-medium;
+  
+      h2 {
+        font-size: $font-size-h2;
+        color: $primary-color;
+        text-align: center;
+      }
+  
+      .view-more {
+        background-color: $primary-color;
+        color: $white-color;
+        padding: 8px 16px;
+        border-radius: $border-radius;
+        border: none;
+      }
+    }
+  
+    .pet-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+  
+      .pet-card {
+        background-color: $white-color;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 16px;
+  
+        .pet-name {
+          font-size: $font-size-small;
+          font-weight: bold;
+          color: $primary-color;
+        }
+  
+        .pet-details {
+          color: $gray-color;
+        }
+  
+        .pet-price {
+          color: $primary-color;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  

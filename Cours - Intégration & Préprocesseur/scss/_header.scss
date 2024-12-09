@@ -1,0 +1,55 @@
+.header {
+    background-color: $secondary-color;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    .header__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: $padding-base 0;
+    }
+
+    .header__logo {
+        display: flex;
+        align-items: center;
+
+        &-image {
+            height: 70px;
+            margin-right: $margin-small;
+        }
+
+        &-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $primary-color;
+        }
+    }
+
+    .nav-links {
+        a {
+            margin: 0 $margin-medium;
+            color: $primary-color;
+            text-decoration: none;
+        }
+    }
+
+    .header__actions {
+        display: flex;
+        align-items: center;
+
+        .search-bar {
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            padding: 8px 64px;
+            margin-right: $margin-small;
+        }
+
+        .login-btn {
+            background-color: $primary-color;
+            color: $white-color;
+            padding: 8px 64px;
+            border-radius: $border-radius;
+            border: none;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.footer {
+    background-color: $secondary-color;
+    padding: $padding-large 0;
+    text-align: center;
+
+    h2 {
+        font-size: 1.5rem;
+        color: $primary-color;
+    }
+
+    .subscription-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+
+        input {
+            padding: 8px 16px;
+            border: 1px solid $border-color;
+            border-radius: $border-radius;
+            width: 300px;
+            margin-right: 8px;
+        }
+
+        button {
+            background-color: $primary-color;
+            color: $white-color;
+            padding: 8px 16px;
+            border-radius: $border-radius;
+            border: none;
+        }
+    }
+
+    .footer__links {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        font-size: 0.9rem;
+
+        a {
+            color: $gray-color;
+            text-decoration: none;
+        }
+    }
+}

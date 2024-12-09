@@ -1,0 +1,44 @@
+.hero-section {
+    background-color: $secondary-color;
+    padding: $padding-large 0;
+
+    .hero__container {
+        display: flex;
+        align-items: center;
+
+        .hero__text {
+            h1 {
+                font-size: $font-size-h1;
+                font-weight: bold;
+                color: $primary-color;
+            }
+
+            .hero__subtitle {
+                font-size: $font-size-large;
+                font-weight: bold;
+                color: $primary-color;
+                margin-bottom: 40px;
+            }
+
+            .hero__description {
+                color: $primary-color;
+                margin-top: 16px;
+                margin-bottom: 40px;
+            }
+
+            .hero__buttons {
+                button {
+                    margin-right: $margin-small;
+                    padding: 12px 24px;
+                    border-radius: $border-radius;
+                }
+            }
+        }
+
+        .hero__image {
+            width: 50%;
+            height: auto;
+            border-radius: 20px;
+        }
+    }
+}
